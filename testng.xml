@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Lenovo Gk/OneDrive/Dokumen/Bootcamp SQA B18/code/ujianseleniumjc/src/test/java/com/juaracoding/ProductTest.java">
+        <classes>
+            <class name="com.juaracoding.ProductTest">
+                <methods>
+                    <include name="testAddToCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Lenovo Gk/OneDrive/Dokumen/Bootcamp SQA B18/code/ujianseleniumjc/src/test/java/com/juaracoding/LoginPositifTest.java">
+        <classes>
+            <class name="com.juaracoding.LoginPositifTest">
+                <methods>
+                    <include name="testLoginPositif"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Lenovo Gk/OneDrive/Dokumen/Bootcamp SQA B18/code/ujianseleniumjc/src/test/java/com/juaracoding/LoginNegatifTest.java">
+        <classes>
+            <class name="com.juaracoding.LoginNegatifTest">
+                <methods>
+                    <include name="testInvalidUsername"/>
+                    <include name="testInvalidPassword"/>
+                    <include name="testNullUsername"/>
+                    <include name="testNullPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
